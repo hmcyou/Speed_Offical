@@ -18,5 +18,5 @@ apt-get install -y tcptraceroute bc wget && wget https://raw.githubusercontent.c
 ```
 3.1 阿里轻量云监控卸载
 ```
-apt-get install -y tcptraceroute bc wget && wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/tcping && chmod +x tcping && mv tcping /usr/bin
+wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/Uninstall_Aliyunserver.sh && chmod +x Uninstall_Aliyunserver.sh && ./Uninstall_Aliyunserver.sh
 ```

@@ -20,3 +20,7 @@ apt-get install -y tcptraceroute bc wget && wget https://raw.githubusercontent.c
 ```
 wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/Uninstall_Aliyunserver.sh && bash Uninstall_Aliyunserver.sh
 ```
+4 caddy一键脚本
+```
+wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/caddyinstall.sh && bash caddyinstall.sh
+```

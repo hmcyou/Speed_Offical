@@ -1,4 +1,4 @@
-#Caddy 安装脚本，根据官方文件
+#Caddy 安装脚本，根据官方文档
 mkdir caddy && cd caddy
 mkdir -p /etc/caddy/
 touch /etc/caddy/Caddyfile
@@ -31,3 +31,4 @@ systemctl start caddy
 systemctl status caddy
 
 echo "安装完成，请编辑 /etc/caddy/Caddyfile 文件，完成后执行systemctl restart caddy && systemctl status caddy"
+

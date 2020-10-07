@@ -32,3 +32,4 @@ systemctl status caddy
 
 echo "安装完成，请编辑 /etc/caddy/Caddyfile 文件，完成后执行systemctl restart caddy && systemctl status caddy"
 
+rm -rf caddy/ caddyinstall.sh

@@ -64,11 +64,6 @@ Restart_caddy(){
 	Estart
 }
 
-Status_caddy(){
-	`systemctl status caddy`
-	Estart
-}
-
 Estart(){
 echo && echo -e "  caddy Debian/ubuntu 一键安装脚本
   
@@ -78,7 +73,6 @@ echo && echo -e "  caddy Debian/ubuntu 一键安装脚本
 	3.启动 caddy
 	4.停止 caddy
 	5.重启 caddy
-	6.查看 caddy状态
 	————————————" && echo
 read -e -p " 请输入数字 [1-5]:" num
 case "$num" in
@@ -96,9 +90,6 @@ case "$num" in
 	;;
 	5)
 	Restart_caddy
-	;;
-	6)
-	Status_caddy
 	;;
 	*)
 	echo "请输入正确数字 [1-5]"

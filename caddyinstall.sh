@@ -39,19 +39,16 @@ Uninstall_caddy(){
 Start_caddy(){
 	`systemctl start caddy`
 	Estart
-	echo "caddy 已启动"
 }
 
 Stop_caddy(){
-	`systemctl stop caddy`
+	'systemctl stop caddy`
 	Estart
-	echo "caddy 已停止"
 }
 
 Restart_caddy(){
-	`systemctl restart caddy`
+	'systemctl restart caddy'
 	Estart
-	echo "caddy 重启成功"
 }
 
 Edit_caddy(){

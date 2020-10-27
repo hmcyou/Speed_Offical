@@ -3,7 +3,7 @@
 echo root:123qwe |sudo chpasswd root
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
-echo Port 22 >> /etc/ssh/sshd_config
+
 ervice ssh restart
 
 clear

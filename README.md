@@ -24,3 +24,7 @@ wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/Uninstall_
 ```
 wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/caddyinstall.sh && bash caddyinstall.sh
 ```
+5.1一键白嫖GCPShell-SS脚本
+```
+wget https://github.com/NewCheung/Speed_Offical/blob/master/onekeybpGCPss.sh && bash onekeybpGCPss.sh
+```

@@ -22,3 +22,6 @@ echo "白嫖成功，请复制下面的ss链接"
 echo $ssp
 echo -e "\n"
 gost -L ss://chacha20-ietf:gcpnb888@:22
+
+
+#  配合”按键精灵“后台操作，美滋滋。 不掉线 https://github.com/taojy123/KeymouseGo/releases/tag/v3.1

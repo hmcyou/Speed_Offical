@@ -42,12 +42,12 @@ Start_caddy(){
 }
 
 Stop_caddy(){
-	'systemctl stop caddy`
+	`systemctl stop caddy`
 	Estart
 }
 
 Restart_caddy(){
-	'systemctl restart caddy'
+	`systemctl restart caddy'
 	Estart
 }
 

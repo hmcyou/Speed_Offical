@@ -47,7 +47,7 @@ Stop_caddy(){
 }
 
 Restart_caddy(){
-	`systemctl restart caddy'
+	`systemctl restart caddy`
 	Estart
 }
 

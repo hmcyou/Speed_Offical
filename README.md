@@ -16,6 +16,10 @@ yum install -y tcptraceroute bc wget && wget https://raw.githubusercontent.com/N
 ```
 apt-get install -y tcptraceroute bc wget && wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/tcping && chmod +x tcping && mv tcping /usr/bin
 ```
+2.3 besttrace一键
+```
+wget https://github.com/NewCheung/Speed_Offical/raw/master/besttrace && mv besttrace /usr/bin && echo "Besttrace已安装"
+```
 3.1 阿里轻量云监控卸载
 ```
 wget https://raw.githubusercontent.com/NewCheung/Speed_Offical/master/Uninstall_Aliyunserver.sh && bash Uninstall_Aliyunserver.sh

@@ -18,7 +18,7 @@ apt-get install -y tcptraceroute bc wget && wget https://raw.githubusercontent.c
 ```
 2.3 besttrace一键
 ```
-wget https://github.com/NewCheung/Speed_Offical/raw/master/besttrace && mv besttrace /usr/bin && echo "Besttrace已安装"
+wget https://github.com/NewCheung/Speed_Offical/raw/master/besttrace && chmod +x besttrace && mv besttrace /usr/bin 
 ```
 3.1 阿里轻量云监控卸载
 ```

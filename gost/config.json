@@ -1,0 +1,7 @@
+{
+    "Debug": true,
+    "Retries": 0,
+    "ServeNodes": [
+        "ss://chacha20-ietf:QWERTyuiop@:555"
+    ]
+}

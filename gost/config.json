@@ -3,5 +3,8 @@
     "Retries": 0,
     "ServeNodes": [
         "ss://chacha20-ietf:QWERTyuiop@:555"
+    ],
+    "ChainNodes": [
+        "ss://chacha20-ietf:QWERTyuiop@1.1.1.1:555"
     ]
 }

@@ -7,8 +7,8 @@ Install_caddy(){
 	`mkdir caddy && cd caddy`
 	`mkdir -p /etc/caddy/`
 	`touch /etc/caddy/Caddyfile`
-	`wget https://github.com/caddyserver/caddy/releases/download/v2.2.0/caddy_2.2.0_linux_amd64.tar.gz`
-	`tar -xzvf caddy_2.2.0_linux_amd64.tar.gz`
+	`wget https://github.com/caddyserver/caddy/releases/download/v2.4.1/caddy_2.4.1_linux_amd64.tar.gz`
+	`tar -xzvf caddy_2.4.1_linux_amd64.tar.gz`
 	`mv caddy /usr/bin/`
 	`groupadd --system caddy`
 	`useradd --system \

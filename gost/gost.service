@@ -8,6 +8,23 @@ Type=simple
 User=root
 DynamicUser=true
 ExecStart=/usr/bin/gost -C /etc/gost/config.json
+LimitCPU=infinity
+LimitFSIZE=infinity
+LimitDATA=infinity
+LimitSTACK=infinity
+LimitCORE=infinity
+LimitRSS=infinity
+LimitNOFILE=infinity
+LimitAS=infinity
+LimitNPROC=infinity
+LimitMEMLOCK=infinity
+LimitLOCKS=infinity
+LimitSIGPENDING=infinity
+LimitMSGQUEUE=infinity
+LimitRTPRIO=infinity
+LimitRTTIME=infinity
+Restart=always
+RestartSec=20
 
 [Install]
 WantedBy=multi-user.target

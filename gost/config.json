@@ -1,5 +1,5 @@
 {
-    "Debug": true,
+    "Debug": false,
     "Retries": 0,
     "ServeNodes": [
         "ss://chacha20-ietf:QWERTyuiop@:555"

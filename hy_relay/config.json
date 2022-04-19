@@ -1,0 +1,32 @@
+{
+    "server": "43.132.157.34:46888",
+    "protocol": "udp",
+    "up_mbps": 50,
+    "down_mbps": 250,
+    "relay_tcps": [
+        {
+            "listen": "0.0.0.0:12345",
+            "remote": "ip:port",
+            "timeout": 300
+        }
+    ],
+    "relay_udps": [
+        {
+            "listen": "0.0.0.0:12345",
+            "remote": "ip:port",
+            "timeout": 60
+        }
+    ],
+    "alpn": "h3",
+    "acl": "/etc/hy/acl/routes_global.acl",
+    "mmdb": "/etc/hy/Country.mmdb",
+    "auth_str": "password",
+    "server_name": "baidu.com",
+    "insecure": false,
+    "recv_window_conn": 5242880,
+    "recv_window": 20971520,
+    "disable_mtu_discovery": true,
+    "resolver": "8.8.8.8:53",
+    "retry": 3,
+    "retry_interval": 3
+}

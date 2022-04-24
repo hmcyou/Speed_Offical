@@ -1,5 +1,5 @@
 {
-    "server": "43.132.157.34:46888",
+    "server": "ip:port",
     "protocol": "udp",
     "up_mbps": 50,
     "down_mbps": 250,
